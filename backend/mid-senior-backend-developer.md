@@ -5,12 +5,18 @@ gRPC + Rest
 
 Functionality
 1. An alert is something which consists of a message with media, destination, channel
+
+
+
    Example: Hey anonymous, your order is out for delivery by our awesome partner tony who will be reachable on 987654321.
             Please be available to collect your shipment. 
             Regards,
             Etailify 
             Destination : 99888881111
             Channel : WhatsApp
+
+
+
   These alerts can also be recurring alerts which trigger based on a condition and will keep on alerting the subject until the 
   condition evaluates to false. An example for this would be, product stock falling below a configured threshold in a warehouse.
 
